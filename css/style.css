@@ -1,3 +1,5 @@
+/*https://colorhunt.co/palette/252885*/
+
 *,::before, ::after {
     -moz-box-sizing: border-box !important;
     -webkit-box-sizing: border-box !important;
@@ -113,6 +115,9 @@
   
   /**********************************************************************************************************/
   
+
+  /****************************************************MAIN BLOCK********************************************/
+
   .main__block{
      
     margin-top: 150px;
@@ -144,11 +149,50 @@
       flex-direction: row;
       justify-content: space-between;
   }
+<<<<<<< HEAD
   .link__menu>a:hover{
       color:orangered;
       
   }
  
+=======
+  /**********************************************************************************************************/
+
+
+  /****************************************************Education BLOCK********************************************/
+
+  .education{
+      margin-top: 290px;
+
+  }
+
+  .education__inner{
+      display: flex;
+      justify-content: space-around;
+      line-height: normal;
+
+
+  }
+
+  .metod-box{
+      width: 300px;
+      height: 500px;
+      margin-right: 10px;
+
+  }
+
+  .box-container{
+      height: 100%;
+      background-color: #c7cfb7 ;
+  }
+
+
+
+  /**********************************************************************************************************/
+
+
+
+>>>>>>> f58034221e8917582d8cd457d9c605317e7e645f
 
   
   /********************************************************FOOter********************************************/
@@ -159,7 +203,7 @@
       padding-bottom: 40px;
       width: 100%;
       position: absolute;
-      bottom: 0;
+     
     
      
   }
