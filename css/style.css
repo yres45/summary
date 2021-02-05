@@ -21,6 +21,13 @@
       
       
   }
+
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
   
   .wrapper{
       /* display: flex;
@@ -120,7 +127,7 @@
 
   .main__block{
      
-    margin-top: 150px;
+    margin-top: 70px;
   }
 
   .main-photo{
@@ -142,6 +149,7 @@
       width: 244px;
       background-repeat: no-repeat;
       background-position:center;
+      border-radius: 20px;
   }
 
   .main__inner{
@@ -149,51 +157,75 @@
       flex-direction: row;
       justify-content: space-between;
   }
-<<<<<<< HEAD
   .link__menu>a:hover{
       color:orangered;
       
   }
+  .main__title{
+      text-align: center;
+      margin-bottom: 65px;
+  }
+  .left h2::after {
+    margin-top: 51px;
+    position: absolute;
+    content: '';
+    -webkit-transform: translate3d(-90%, 49%, 0);
+    transform: translate3d(-90%, 49%, 0);
+    width: 419px;
+    height: 3px;
+    background-color: #6d7973;
+  }
+
+  .right h2::after {
+    margin-top: 51px;
+    position: absolute;
+    content: '';
+    -webkit-transform: translate3d(-90%, 49%, 0);
+    transform: translate3d(-40%, 49%, 0);
+    width: 419px;
+    height: 3px;
+    background-color: #6d7973;
+  }
  
-=======
-  /**********************************************************************************************************/
-
-
-  /****************************************************Education BLOCK********************************************/
-
-  .education{
-      margin-top: 290px;
-
+  /********************************************************education********************************************/
+  .education,
+  .expirience{
+      margin-top: 150px;
   }
 
   .education__inner{
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
+      justify-content: space-between;
       line-height: normal;
 
+  }
+
+  .education__image img{
+    max-width: 100%;
+    width: 644px;
+    background-repeat: no-repeat;
+    background-position:center;
 
   }
 
-  .metod-box{
-      width: 300px;
-      height: 500px;
-      margin-right: 10px;
-
+  .education__image{
+      justify-content: center;
+    
+    display: flex;
   }
 
-  .box-container{
-      height: 100%;
-      background-color: #c7cfb7 ;
+  .education__text{
+      margin-top: 80px;
+      padding:0  75px 0 75px;
+      opacity: 0;
+
   }
+  
 
 
 
   /**********************************************************************************************************/
-
-
-
->>>>>>> f58034221e8917582d8cd457d9c605317e7e645f
-
   
   /********************************************************FOOter********************************************/
   
